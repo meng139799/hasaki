@@ -13,7 +13,7 @@ public class Cpp {
             }
         }
         if (user>-3200&&user<0){
-            if(user%4==1&&user%400==1){
+            if(user%4==-1&&user%400==-1){
                 System.out.println("你输入的是闰年");
             }else{
                 System.out.println("你输入的不是闰年");
